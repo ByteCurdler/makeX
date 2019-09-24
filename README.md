@@ -1,6 +1,6 @@
 # makeX
 A Python script for Apache servers to make Python executeable.  
-Usage: `python3 makeX?.py input.py output.py`
+Usage: `python3 makeX?.py input.py output.py`  
 Each makeX version builds on previous ones.
 + makeX1: For basic execution. No POST, no GET. Good for programs without input.
 + makeX2: Provides the _POST and _GET dictionaries. Does not render "%xx" except "%0D%0A" (\r\n) as \n. Use makeX3 instead.
