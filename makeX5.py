@@ -9,7 +9,7 @@ inTxt = inF.read()
 inF.close()
 
 outF = open(sys.argv[2],"w+")
-outF.write(u"""#!/usr/bin/env python
+outF.write(u"""#!/usr/bin/env python3
 import cgi,sys,os
 import cgitb
 cgitb.enable()
